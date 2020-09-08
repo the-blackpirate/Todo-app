@@ -40,17 +40,11 @@ export class TodosService {
     this.datas.push(a);
   }
 
-  // update(a: Todos) {
-  //   const index = this.datas.findIndex((u) => a.id === u.id);
-  //   this.datas[index] = a;
-  // }
+ 
   delete(x: Todos) {
     x.id = this.removedTodos.length + 1;
     this.removedTodos.push(x);
     this.datas.splice(this.datas.indexOf(x), 1);
   }
 
-  // AddCompletedTodos(x: CompletedTodos) {
-  //   this.removedTodos.push();
-  // }
 }
