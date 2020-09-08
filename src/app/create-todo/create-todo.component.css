@@ -1,0 +1,36 @@
+mat-form-field {
+  width: 85%;
+  margin-bottom: 10px;
+}
+
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.inner-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 16px;
+  padding: 16px;
+  border-radius: 8px;
+}
+example-h2 {
+  margin: 10px;
+}
+
+.mat-tab-group {
+  margin-bottom: 48px;
+}
+
+.example-section {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.example-margin {
+  margin: 0 10px;
+}

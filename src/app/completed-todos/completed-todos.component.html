@@ -1,0 +1,15 @@
+<h1>Deleted Todos will Appeared Here</h1>
+
+<mat-card class="example-card" *ngFor="let rt of removedTodos">
+  <mat-card-header>
+          <mat-card-title>{{ rt.id }}</mat-card-title>
+    <mat-card-title>{{ rt.task_name }}</mat-card-title>
+    <mat-card-content>
+      <p>
+        {{ rt.task_desc }}
+      </p>
+    </mat-card-content>
+    <br>
+    <button mat-button disabled>{{ rt.repeating_task }}</button>
+  </mat-card-header>
+</mat-card>
